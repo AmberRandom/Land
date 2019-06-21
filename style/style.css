@@ -1,0 +1,169 @@
+/*Global*/
+
+body {
+	margin: 0 auto;
+	max-width: 1280px;
+}
+
+.global_cont {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	height: 3250px;
+}
+
+
+.container {
+	margin: 70px auto;
+	text-align: center;
+}
+
+.logo{
+	width: 100%;
+	max-width: 270px;
+	height: 270px;
+
+}
+
+
+/*Intro*/
+
+.intro {
+	background:url(../img/intro.jpg) center no-repeat; 
+	display: flex; 
+	flex-direction: column;
+	height: 800px;
+}
+
+.titles {
+	width: 680px;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	color: white;
+	font-size: 49px;
+	margin-top: 70px;
+}
+
+.intro_title {
+	margin: 0;
+}
+
+.subtitle {
+	font-weight: 700;
+	margin: 0;
+}
+
+/*Form header*/
+
+.zip_code {
+	text-align:center;
+}
+
+.enter_zip {
+	border: 1px solid #808080;
+	outline: 25px solid #FFFFFF;
+	width: 100%;
+	max-width: 280px;
+	height:35px
+}
+
+.form_img { 
+	width: 100%;
+	max-width: 332px;
+	margin-top: 25px; 
+}
+
+.call_back {
+	display: block;
+	background: #fff;
+	width: 100%;
+	max-width: 332px;
+	border: 1px solid #808080;
+	margin: 0 auto;
+}
+
+.form_content {
+	font-size: 15px;
+	color: #808080;
+	font-family: 'Open Sans', sans-serif;
+	margin: 20px auto;
+}
+
+.call_back_button {
+	width: 195px;
+	height: 50px;
+	background-color: #227dd3;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	text-transform: uppercase;
+	margin-bottom: 25px; 
+}
+
+/*Fiches*/
+
+.fiches {
+	margin: 210px auto;
+	display: flex;
+	justify-content: center;
+} 
+
+.fich_item {
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	margin-left: 75px; 
+}
+
+.fich_desc {
+	width: 100%;
+	max-width: 260px;
+	margin-left: 30px;
+	color: #808080;
+}
+
+.fich_title {
+	font-weight: 700;
+	font-size: 28px;
+	font-family: 'Open Sans', sans-serif;
+	color: #000000;
+}
+
+/*Description*/
+
+.descript {
+	background:
+	url(../img/1.png) 30% 10% no-repeat,
+	url(../img/2.png) 0% 120% no-repeat,
+	url(../img/fon_desc.jpg) no-repeat;
+	height: 1350px;
+	position: relative;
+}
+
+.img_des {
+	margin: 90px 220px;
+	position: relative;
+	z-index: 0;
+}
+
+.main_title {
+	font-family: 'Open Sans', sans-serif;
+	color: #FFFFFF;
+	font-size: 40px;
+	font-weight: 400;
+	text-align: center;
+}
+
+
+.text_content {
+	font-family: 'Open Sans', sans-serif;
+	color: #FFFFFF;
+	font-size: 14px;
+	text-align: center;
+}
+
+.container_text {
+	padding-top: 250px;
+	width: 100%;
+	max-width: 650px;
+	margin: 0 auto;
+}
